@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Comfortaa", sans-serif ;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto; /* Центрируем по горизонтали */
+    padding: 20px; /* Отступы по 20px со всех сторон */
+}
+
+nav {
+    display: flex; /* Используем flex для выравнивания элементов */
+    justify-content: center; /* Центрируем элементы по горизонтали */
+    align-items: center; /* Выравниваем элементы по вертикали */
+}
+
+ul {
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем внутренние отступы */
+    margin: 0; /* Убираем внешние отступы */
+    display: flex; /* Делаем элементы flex-контейнером */
+}
+
+li {
+    margin: 0 25px; /* Еще больший отступ */
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.img1 {
+    background-image: url('/img/Участники - шапка.png');
+    background-position: center; /* Центрируем изображение */
+    background-repeat: no-repeat; /* Отключаем повторение */
+    position: relative; /* Относительное позиционирование */
+    background-size: cover; /* Масштабируем изображение на весь блок */
+    height: 600px; /* Высота шапки, можно менять */
+}
+
+
+.hero.container {
+    text-align: right; /* Выравнивание контейнера по правому краю */
+    padding: 100px 0;
+    margin-right: 200px;
+    max-width: 700px;
+}
+
+.hero--info h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: left; /* Заголовок выравниваем по правому краю */
+}
+
+.hero--info h2 {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: right; /* Подзаголовок выравниваем по правому краю */
+    text-align: justify;
+}
+
+/* Блок мосволонтер */
+.container1 {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    width: 600px; /* Задайте нужную ширину */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    margin-right: 200px;
+}
+
+.container1 ul {
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 200px;
+    max-width: 800px;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.website {
+    float: right;
+    margin-left: 200px;
+    background-color: #49423d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 200px;
+    border-radius: 15px; 
+    font-size: 15px;
+    
+}
+
+
+/* блок с дургими организациями заголовок */
+
+.heading1 {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%; /* Убедитесь, что блок занимает всю доступную ширину */
+}
+
+.heading1 h2 {
+    padding: 20px 0;
+    font-size: 35px;
+    margin: 0; /* Убираем стандартные отступы у h1 */
+    width: 100%; 
+}
+
+/* блок с дургими организациями 1 */
+
+.heading10 {
+    margin-left: 200px; /* Отступ слева для всего блока */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    padding: 15px 15px;
+}
+
+.heading10 h1 {
+    margin: 0; /* Убираем дополнительные отступы у заголовка */
+    padding: 20px 0; /* Отступы сверху и снизу */
+    font-size: 25px;
+}
+
+.container10 {
+    margin-left: 200px; /* Отступ для контейнера */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.img10 {
+    width: 600px; 
+    height: auto; 
+    margin-right: 200px; /* Отступ справа для изображения */
+}
+
+.container10 ul {
+    font-weight: 600;
+    display: flex;
+    max-width: 800px;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.website10 {
+    float: right;
+    margin-left: 200px;
+    background-color: #49423d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 200px;
+    border-radius: 15px; 
+    font-size: 15px;
+    
+}
+
+
+/* блок с дургими организациями 2 */
+
+.heading11{
+    padding-left: 200px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    padding: 15px 15;
+}
+
+.heading11 h1 {
+    padding-left: 200px;
+    padding: 20px 0;
+    font-size: 25px;
+    margin: 0; 
+}
+
+.container11 {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20;
+}
+
+
+.img11{
+    
+    width: 600px; 
+    height: auto; 
+    margin-right: 200px;
+}
+
+.container11 ul {
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 200px;
+    max-width: 800px;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.website11 {
+    float: right;
+    margin-left: 200px;
+    background-color: #49423d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 200px;
+    border-radius: 15px; 
+    font-size: 15px;
+    
+}
+
+
+/* блок с дургими организациями 3 */
+
+.heading12{
+    padding-left: 200px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    padding: 30px 15;
+}
+
+.heading12 h1 {
+    padding-left: 200px;
+    padding: 20px 0;
+    font-size: 25px;
+    margin: 0; 
+}
+
+.container12 {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20;
+}
+
+
+.img12{
+    
+    width: 600px; 
+    height: auto; 
+    margin-right: 200px;
+}
+
+.container12 ul {
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 200px;
+    max-width: 800px;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.website12 {
+    float: right;
+    margin-left: 200px;
+    background-color: #49423d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 200px;
+    border-radius: 15px; 
+    font-size: 15px;
+}
+
+
+
+.img20 {
+    margin-top: 100px;
+    margin: 0 auto;
+    width: 1000px; 
+    height: auto; 
+}

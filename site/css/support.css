@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Comfortaa", sans-serif ;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto; /* Центрируем по горизонтали */
+    padding: 20px; /* Отступы по 20px со всех сторон */
+}
+
+nav {
+    display: flex; /* Используем flex для выравнивания элементов */
+    justify-content: center; /* Центрируем элементы по горизонтали */
+    align-items: center; /* Выравниваем элементы по вертикали */
+}
+
+ul {
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем внутренние отступы */
+    margin: 0; /* Убираем внешние отступы */
+    display: flex; /* Делаем элементы flex-контейнером */
+}
+
+li {
+    margin: 0 25px; /* Еще больший отступ */
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.img1 {
+    background-image: url('/img/21.png');
+    background-position: center; /* Центрируем изображение */
+    background-repeat: no-repeat; /* Отключаем повторение */
+    position: relative; /* Относительное позиционирование */
+    background-size: cover; /* Масштабируем изображение на весь блок */
+    height: 1000px; /* Высота шапки, можно менять */
+}
+
+.hero.container {
+    text-align: right; /* Выравнивание контейнера по правому краю */
+    padding: 250px 0;
+    margin-right: 200px;
+    max-width: 600px;
+}
+
+.hero--info h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: left; /* Заголовок выравниваем по правому краю */
+}
+
+.hero--info h2 {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: right; /* Подзаголовок выравниваем по правому краю */
+    text-align: justify;
+}
+
+/* бок с помощь рядом */
+
+.container1 {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    width: 300px; /* Задайте нужную ширину */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    margin-right: 200px;
+}
+
+.container1 ul {
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 200px;
+    max-width: 900px;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* бок с прототипом */
+
+.heading1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%; /* Убедитесь, что блок занимает всю доступную ширину */
+}
+
+.heading1 h1 {
+    font-size: 35px;
+    width: 100%; 
+}
+
+/* Гаерея */
+
+.gallery-container {
+    margin: 25px 0px 0px 0px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.gallery-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.gallery-item img {
+    width: 800px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Пожробнее */
+
+.botton11 {
+    text-align: center; /* Центрирование текста внутри блока */
+    margin-top: 20px; /* Отступ сверху */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+.botton11 a {
+    background-color: #49423d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 35px;
+    display: inline-block; /* или block */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

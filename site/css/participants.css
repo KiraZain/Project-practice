@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Comfortaa", sans-serif ;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto; /* Центрируем по горизонтали */
+    padding: 20px; /* Отступы по 20px со всех сторон */
+}
+
+nav {
+    display: flex; /* Используем flex для выравнивания элементов */
+    justify-content: center; /* Центрируем элементы по горизонтали */
+    align-items: center; /* Выравниваем элементы по вертикали */
+}
+
+ul {
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем внутренние отступы */
+    margin: 0; /* Убираем внешние отступы */
+    display: flex; /* Делаем элементы flex-контейнером */
+}
+
+li {
+    margin: 0 25px; /* Еще больший отступ */
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.img1 {
+    background-image: url('/img/1.png');
+    background-position: center; /* Центрируем изображение */
+    background-repeat: no-repeat; /* Отключаем повторение */
+    position: relative; /* Относительное позиционирование */
+    background-size: cover; /* Масштабируем изображение на весь блок */
+    height: 600px; /* Высота шапки, можно менять */
+}
+
+.hero.container {
+    text-align: right; /* Выравнивание контейнера по правому краю */
+    padding: 135px 0;
+    margin-right: 200px;
+    max-width: 700px;
+}
+
+.hero--info h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: left; /* Заголовок выравниваем по правому краю */
+}
+
+.hero--info h2 {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: right; /* Подзаголовок выравниваем по правому краю */
+    text-align: justify;
+}
+
+.heading h1{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 35px;
+}
+
+.The_subtitle1{
+    text-align: center;
+    background-color: rgb(234, 240, 240); 
+    padding: 10px; /* Отступы внутри блока */
+    border-radius: 15px; /* Скругление углов */
+    width: 1300px;
+    margin: 0 auto; /* Добавляем это свойство */
+    margin-bottom: 20px;
+}
+
+.content-container h1{
+    font-size: 25px;
+    display: block; /* Убедитесь, что элемент является блочным */
+}
+
+.content-container ul {
+    padding: 15px ;
+    list-style: none; /* Убираем маркеры списка */
+    margin: 0 auto; /* Центрируем список */
+    display: block; /* Делаем список блочным */
+    
+}
+
+.content-container li {
+    margin-bottom: 10px; /* Отступ снизу для каждого элемента списка */
+    display: list-item; /* Убедитесь, что элемент списка отображается как элемент списка */
+    font-size: 20px; /* Размер шрифта для элементов списка */
+    font-weight: 600;
+}
+
+
+.The_subtitle2{
+    text-align: center;
+    background-color: rgb(252, 245, 239); 
+    padding: 10px;
+    border-radius: 15px; 
+    width: 1300px;
+    margin: 0 auto; 
+    margin-bottom: 20px;
+}
+
+.content-container2 h1{
+    font-size: 25px;
+    display: block; 
+}
+
+.content-container2 ul {
+    padding: 15px ;
+    list-style: none;
+    margin: 0 auto; 
+    display: block; 
+    
+}
+
+.content-container2 li {
+    margin-bottom: 10px; 
+    display: list-item; 
+    font-size: 20px; 
+    font-weight: 600;
+}
+
+
+
+.The_subtitle3{
+    text-align: center;
+    background-color: rgb(234, 240, 240); 
+    padding: 10px;
+    border-radius: 15px; 
+    width: 1300px;
+    margin: 0 auto; 
+    margin-bottom: 20px;
+}
+
+.content-container3 h1{
+    font-size: 25px;
+    display: block; 
+}
+
+.content-container3 ul {
+    padding: 15px ;
+    list-style: none;
+    margin: 0 auto; 
+    display: block; 
+    
+}
+
+.content-container3 li {
+    margin-bottom: 10px; 
+    display: list-item; 
+    font-size: 20px; 
+    font-weight: 600;
+}
+
+
+.The_subtitle4{
+    text-align: center;
+    background-color: rgb(252, 245, 239);
+    padding: 10px;
+    border-radius: 15px; 
+    width: 1300px;
+    margin: 0 auto; 
+    margin-bottom: 20px;
+}
+
+.content-container4 h1{
+    font-size: 25px;
+    display: block; 
+}
+
+.content-container4 ul {
+    padding: 15px ;
+    list-style: none;
+    margin: 0 auto; 
+    display: block; 
+    
+}
+
+.content-container4 li {
+    margin-bottom: 10px; 
+    display: list-item; 
+    font-size: 20px; 
+    font-weight: 600;   
+}
+
